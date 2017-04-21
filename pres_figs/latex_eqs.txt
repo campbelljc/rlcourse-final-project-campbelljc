@@ -1,0 +1,14 @@
+boltzmann dist
+P\left ( a|s \right ) = \frac{e^{Q\left ( s, a \right ) / \tau }}{\sum_{b} e^{Q\left ( s, b \right ) / \tau }}
+
+dql-ie expl bonus
+r^{+}\left ( s, a \right ) = \frac{\beta }{\sqrt{\#(s, a)}}
+
+hash expl bonus
+r^{+}\left ( s, a \right ) = \frac{\beta }{\sqrt{n\left ( \phi (s)) \right )}}
+
+simhash
+\phi \left ( s \right ) = \textup{sgn}\left ( Ag\left ( s \right ) \right ) \in \left \{ -1, 1 \right \}^k
+
+pseudo-count
+\widehat{N}\left ( x \right ) = \frac{p\left ( x \right )\left ( 1 - p'\left ( x \right ) \right )}{p'\left ( x \right ) - p\left ( x \right )}
